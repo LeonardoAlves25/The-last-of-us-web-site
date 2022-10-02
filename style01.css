@@ -1,0 +1,299 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../img/wallpapersden.com_the-last-of-us-part-ii_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(165, 165, 165);
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(165, 165, 165);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid gray;
+    margin-top: 13px;
+    color: #fff;
+    border-radius: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: gray;
+    border: 2px solid gray;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    top: 150px;
+}
+
+.content .par{
+    padding-left: 55px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    
+}
+
+.content h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    width: 500px;
+    padding-left: 50px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    right: 50px;
+    text-align: center;
+}
+
+.content .cn{
+    width: 180px;
+    height: 65px;
+    background-color: black;
+    border: 1px white solid;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: gray;
+}
+
+.content span{
+    color: gray;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    opacity: 80%;
+}
+
+.form input:focus{
+    color: #fff;
+    font-family: arial;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: gray;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: white;
+    color: gray;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: gray;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: arial;
+}
+.logof{
+padding-right: 20%;
+    margin-top: 1px;
+}
+.icon a{
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+.icon ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 1px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.icon2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon2 ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 1px;
+    padding-top: 1px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.icon2 ion-icon:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.all{
+ align-content: center;
+   
+    padding-right: 40px;
+}
